@@ -2,12 +2,12 @@
 <?php
 	
 	include ('config/db_connect.php');
-	
+	// its a comment from a c0de 
 
 	//write quires
 
-	// $sql_query = 'SELECT * FROM peoples';
 	$sql_query = 'SELECT id, name, phone, email, address, skills FROM peoples ORDER BY  created_at';
+	// $sql_query = 'SELECT * FROM peoples';
 
 	// make query get result
 	$result = mysqli_query($conn, $sql_query);
